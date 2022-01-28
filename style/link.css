@@ -35,14 +35,14 @@
 
 .link::before {
     background-color: var(--background);
-    height: 103%;
-    width: 95%;
+    height: 104%;
+    width: 96%;
 }
 
 .link::after {
     background-color: var(--background);
     height: 80%;
-    width: 101%;
+    width: 102%;
 }
 
 .link:hover::before {
