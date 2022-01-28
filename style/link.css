@@ -24,6 +24,10 @@
     transition: background-color 1s;
 }
 
+.link>a>sup {
+    font-size: 0.7rem;
+}
+
 .link::before,
 .link::after {
     position: absolute;
