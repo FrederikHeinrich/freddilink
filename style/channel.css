@@ -1,0 +1,17 @@
+.channels {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.channels .channels_item {
+  flex: 5;
+  margin-right: 5px;
+  transition: transform 0.2s;
+  color: var(--color);
+  transition: transform 0.5s;
+}
+
+.channels_item:hover {
+  transform: scale(1.55);
+}
