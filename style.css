@@ -78,7 +78,7 @@ footer {
   padding-bottom: 20px;
 }
 
-#userName {
+.userName {
   width: 100%;
   font-size: 1.5rem;
   font-weight: 400;
