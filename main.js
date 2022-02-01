@@ -1,6 +1,8 @@
 import './style.css'
 import './style/profilepicture.sass'
 
+import './style/snowbg.sass'
+
 // Import the functions you need from the SDKs you need
 import {
   initializeApp
