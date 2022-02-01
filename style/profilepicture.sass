@@ -1,0 +1,51 @@
+$prime: #ff6e48
+$ciBlue: #00FFF1
+$ciRed: #ff00aa
+$ciGreen: #46fcb4
+$second: #0c1016
+
+$width: 96px
+$height: 96px
+$borderSize: 1px
+$borderRadius: 50%
+
+.picturecard
+    margin: 35px auto 20px
+    width: $width
+    height: $height
+    position: relative
+    z-index: 2
+    border-radius: $borderRadius
+
+    .userPhoto
+        display: block
+        border-radius: 50%
+        width: 96px
+        height: 96px
+
+    &::before, &::after
+        content: ""
+        width: $width + $borderSize*2
+        height: $height + $borderSize*2
+        display: block
+        position: absolute
+        z-index: -1
+        border-radius: $borderRadius
+        background-image: linear-gradient(0, $ciRed, $ciBlue)
+        background-size: 100% 200%
+        background-position: center center
+        background-blend-mode: 50%
+        top: -$borderSize
+        left: -$borderSize
+        animation: spin 3000ms infinite alternate
+
+    &::after
+        filter: blur(calc( $width / 2))
+
+@keyframes spin
+    0%
+        background-position: top center
+        transform: translate(0%, 0%)
+    100%
+        background-position: bottom center
+        transform: translate(0%, 0%)

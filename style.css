@@ -78,15 +78,6 @@ footer {
   padding-bottom: 20px;
 }
 
-#userPhoto {
-  width: 96px;
-  height: 96px;
-  display: block;
-  margin: 35px auto 20px;
-  border-radius: 50%;
-  border: solid var(--color) 2px;
-}
-
 #userName {
   width: 100%;
   font-size: 1.5rem;
@@ -96,8 +87,6 @@ footer {
   display: block;
   color: var(--color);
 }
-
-
 
 @media (prefers-color-scheme: dark) {
 
