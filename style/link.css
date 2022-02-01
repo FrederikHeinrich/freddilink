@@ -39,7 +39,7 @@
 
 .link::before {
     background-color: var(--background);
-    height: 104%;
+    height: 106%;
     width: 96%;
 }
 
