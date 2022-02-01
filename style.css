@@ -5,9 +5,9 @@
 
 :root {
   --font: 'Roboto Mono', monospace;
-  --background: rgb(255, 255, 255);
-  --hoverbackground: rgb(144, 144, 145);
-  --color: #232333;
+  --background: #202124;
+  --hoverbackground: #383838;
+  --color: white;
 }
 
 *,
@@ -85,14 +85,4 @@ footer {
   line-height: 1.25;
   display: block;
   color: var(--color);
-}
-
-@media (prefers-color-scheme: dark) {
-
-  :root {
-    --background: #202124;
-    --hoverbackground: #383838;
-    --color: white;
-  }
-
 }
