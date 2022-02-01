@@ -74,4 +74,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# Vite build output
 dist/
