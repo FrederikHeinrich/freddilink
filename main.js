@@ -29,3 +29,14 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+if (urlParams.get("mode") == "tesla") {
+  document.getElementById("links").style.visibility = "hidden";
+  document.getElementById("links").style.display = "none";
+  document.getElementById("teslalinks").style.visibility = "visible";
+  document.getElementById("teslalinks").style.display = "block";
+}
