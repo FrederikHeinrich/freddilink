@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
-  plugins: [
-    VitePWA({
+    plugins: [
+        VitePWA({
+            strategies: 'injectManifest',
+            filename: 'sw.ts',
         includeAssets: [
             'assets/favicon.ico',
             'robots.txt',
