@@ -4,6 +4,7 @@ export default defineConfig({
     plugins: [
         VitePWA({
             strategies: 'injectManifest',
+            srcDir: 'src',
             filename: 'sw.ts',
         includeAssets: [
             'assets/favicon.ico',
