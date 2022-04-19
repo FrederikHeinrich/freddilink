@@ -12,7 +12,7 @@ export default defineConfig({
         name: 'Freddi.link',
         short_name: 'Freddi´s Link Collection',
         description: 'Freddi´s Link Collection',
-        theme_color: '#ffffff',
+        theme_color: '#202124',
         icons: [
           {
             src: "assets/android-chrome-192x192.png",
